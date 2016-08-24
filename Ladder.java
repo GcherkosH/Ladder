@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Ladder {
 
 		
-		private int v; 			// Anle of the ladder with respect to ground
+		private int v; 			// Angle of the ladder with respect to ground
 		private int h; 		// height of wall
 		private int l;		// length of the ladder
 
