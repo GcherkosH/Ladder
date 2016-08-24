@@ -13,8 +13,10 @@ public class Ladder {
 			Scanner k  = new Scanner(System.in);
 			this.h = k.nextInt();
 			this.v = k.nextInt();
-			if (h < 0 || h > 1000 || v < 0 || v >90)
+			if (h < 1 || h > 1000 || v < 1 || v >90){
 				System.out.println(" Please enter valid values of h and v. 0 < h < 1001, 0 < v < 90");
+				System.exit(0);
+			}
 			}
 
 		public int calculate_length( ){
